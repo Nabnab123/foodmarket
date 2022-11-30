@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".modul.auth.signin.SigninFragment"
+    android:background="#FFF"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFF"
+        android:layout_marginTop="24dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingTop="26dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:textSize="20dp"
+        android:textColor="#1f1f1f"
+        android:fontFamily="sans-serif-medium"/>
+
+    <EditText
+        android:layout_marginTop="6dp"
+        android:padding="10dp"
+        android:textSize="16dp"
+        android:background="@drawable/shape_rectangle_outline_8_020202"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan no telepon"/>
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textSize="20dp"
+        android:textColor="#1f1f1f"
+        android:fontFamily="sans-serif-medium"/>
+
+    <EditText
+        android:layout_marginTop="6dp"
+        android:padding="10dp"
+        android:textSize="16dp"
+        android:background="@drawable/shape_rectangle_outline_8_020202"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan alamat anda"/>
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="House Number"
+        android:textSize="20dp"
+        android:textColor="#1f1f1f"
+        android:fontFamily="sans-serif-medium"/>
+
+    <EditText
+        android:layout_marginTop="6dp"
+        android:padding="10dp"
+        android:textSize="16dp"
+        android:background="@drawable/shape_rectangle_outline_8_020202"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan no rumah anda"/>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="City"
+            android:textSize="20dp"
+            android:textColor="#1f1f1f"
+            android:fontFamily="sans-serif-medium"/>
+
+        <EditText
+            android:layout_marginTop="6dp"
+            android:padding="10dp"
+            android:textSize="16dp"
+            android:background="@drawable/shape_rectangle_outline_8_020202"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan kota anda"/>
+
+    <Button
+        android:id="@+id/btnDaftarSkrg"
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="16dp"
+        android:textColor="#1f1f1f"
+        android:background="@drawable/recta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daftar Sekarang"
+        android:textAllCaps="false"/>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".modul.auth.signin.SigninFragment"
+    android:background="#FFF"
+    android:layout_marginTop="24dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:paddingTop="26dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email Address"
+        android:textSize="20dp"
+        android:textColor="#1f1f1f"
+        android:fontFamily="sans-serif-medium"/>
+
+    <EditText
+        android:layout_marginTop="6dp"
+        android:padding="10dp"
+        android:textSize="16dp"
+        android:background="@drawable/shape_rectangle_outline_8_020202"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan email anda"/>
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="20dp"
+        android:textColor="#1f1f1f"
+        android:fontFamily="sans-serif-medium"/>
+
+    <EditText
+        android:inputType="textPassword"
+        android:layout_marginTop="6dp"
+        android:padding="10dp"
+        android:textSize="16dp"
+        android:background="@drawable/shape_rectangle_outline_8_020202"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan password anda"/>
+
+    <Button
+        android:id="@+id/btnSignin"
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="16dp"
+        android:textColor="#1f1f1f"
+        android:background="@drawable/recta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="16dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/shape_rectangle_8_8d92a3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buat akun baru"
+        android:textAllCaps="false"/>
+</LinearLayout>

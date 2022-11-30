@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="110dp"
+    android:orientation="vertical"
+    tools:context=".modul.detail.PaymentSuccessFragment">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_success_order"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Makanan Sudah Dipesan!"
+        android:layout_marginTop="10dp"
+        style="@style/Heading"/>
+
+    <TextView
+        android:id="@+id/tvSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pastikan anda berada di lokasi\nMohon tunggu hingga makanan datang"
+        android:layout_marginTop="6dp"
+        android:textAlignment="center"
+        style="@style/Textview20dp.sub"/>
+
+    <Button
+        android:id="@+id/btnOrderFood"
+        android:text="Pesan Makanan Lainnya"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="16dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#1f1f1f"
+        android:background="@drawable/recta"/>
+
+    <Button
+        android:id="@+id/btnMyOrder"
+        android:text="Lihat Pesanan"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:textColor="#FFF"
+        android:background="@drawable/shape_rectangle_8_8d92a3"/>
+</LinearLayout>
